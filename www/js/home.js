@@ -213,7 +213,7 @@ for (y=0;y<returnData.rows.length;y++){
 
 
 function contentOnClick(item_group, Escode, type, desc, desc2, UOM, price1, price2, price_min, balanceqty,last_price){
-    alert(Escode);
+
     window.location="detail.html?item_group="+item_group+"&item_code="+Escode+"&type="+type+"&desc="+desc+"&desc2="+desc2+"&uom="+UOM+"&price1="+price1+"&price2="+price2+"&price_min="+price_min+"&balanceqty="+balanceqty+"&last_price="+last_price;
     
 }
